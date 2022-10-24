@@ -21,12 +21,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Moskowite                          # the main title
+title: moskowite                          # the main title
 
-tagline: Development Operations   # it will display as the sub-title
+tagline: code, devops, and tech   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A developer operations information website.
+  code, devops, and tech
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://moskowite.github.io'
@@ -45,7 +45,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
-    # - https://github.com/username       # change to your github homepage
+    - https://github.com/moskowite      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/858034
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -167,6 +167,10 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 sass:
   style: compressed
