@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   code, devops, and tech
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://moskowite.github.io'
+url: 'https://blog.moskowite.com'
 
 github:
   username: moskowite             # change to your github username
