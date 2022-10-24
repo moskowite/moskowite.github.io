@@ -65,7 +65,7 @@ Once the repository is created, GitHub Pages will need to be configured to use G
 
 The `_config.yml` file is located in the root of the newly created repository.
 
-First clone the repository using the **git clone** command. There are many ways to clone a git repository. Check out my [About page]({{ 'about' | relative_url }}) for more information.
+First clone the repository using the [**git clone**](https://www.git-scm.com/docs/git-clone){:target="_blank"} command. There are many ways to clone a git repository. Check out my [About page]({{ 'about' | relative_url }}) for more information.
 
 Open **PowerShell** then navigate to the directory to clone the repository, and run the **git clone** command below.
 
@@ -136,13 +136,13 @@ Go to [https://api.github.com/users/moskowite](https://api.github.com/users/mosk
 
 The last step before commit the changes to the local repository and push to the remote repository hosted on GitHub.com is to test and validate the changes made to the `_config.yml` file.
 
-Dependencies must be installed first by **Bundle** by executing the command below in the root directory of `\moskowite.github.io`.
+Dependencies must be installed first by *Bundle* by executing the [**bundle install**](https://bundler.io/v2.3/man/bundle-install.1.html){:target="_blank"} command below in the root directory of `\moskowite.github.io`. Please note **bundle** and **bundle install** are identical commands because bundle's default task is install.
 
 ```console
-bundle
+bundle install
 ```
 
-After installing dependencies bundle is used to build and serve the website locally. The website will be available by default at [http://127.0.0.1:4000/](http://127.0.0.1:4000/){:target="_blank"}. 
+After installing dependencies [**bundle exec**](https://bundler.io/v2.3/man/bundle-exec.1.html){:target="_blank"} calls the **Jekyll** gem's **serve** command build and serve the site locally. This will also automatically update the local site whenever a source file changes while the command is running. The website will be available by default at [http://127.0.0.1:4000/](http://127.0.0.1:4000/){:target="_blank"}. 
 
 > If the site is not available please refer to source documentation for further troubleshooting.
 {: .prompt-warning }
