@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using GitHub Page with Jekyll"
+title: "Using GitHub Pages with Jekyll"
 date: 2022-10-23 08:08:08 -0800
 last_modified_at: 2022-10-24 09:09:09 -0800
 category:
@@ -12,7 +12,7 @@ tags:
     - jekyll
     - powershell
 ---
-This post is documentation of setting up this Jekyll site with the Chirpy theme using GitHub Pages for hosting and continuos deployment using GitHub Actions. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
+This post is documentation of setting up this [Jekyll site](https://jekyllrb.com/){:target="_blank"} with the [Chirpy theme](https://chirpy.cotes.page/){:target="_blank"} using [GitHub Pages](https://pages.github.com/){:target="_blank"} for hosting and continuos deployment using GitHub Actions. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
 
 ## Getting Started
 
