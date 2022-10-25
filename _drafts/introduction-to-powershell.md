@@ -6,6 +6,10 @@ tags:
     - powershell
 ---
 
+## Introduction
+
+If you’ve not already tried it, PowerShell has made significant development since it’s release back in 2006 with Windows XP. PowerShell is built to support not only the Windows platform, but also Linux and macOS. PowerShell functions as a modern command shell and a scripting languages used to automate, build, and deploy solutions.
+
 |PowerShell Version| Windows / Server Version | Release Date
 |---|---|---|
 | 1.0 | XP / Server 2008                        | 2006-11-01
@@ -15,8 +19,45 @@ tags:
 | 5.0 | 10 / Server 2016 Tech Preview           | 2015-12-16
 | 5.1 | 10 Anniversary edition / Server 2016    | 2017-01-27
 
+## Writing
+
+Starting off with the basics, writing to everyone and anywhere. PowerShell comes by default with several stream types you can write to. 
+
+> Include a list or table or something of the stream types.
+
+### Output
+
 
 ```powershell
 > Write-Output "Hello World."
 Hello World
 ```
+
+### Error
+
+
+### Verbose
+
+
+### Information
+
+
+
+
+## Variables
+
+
+### Dynamic
+
+### Declared
+
+### Casting
+
+
+## Data structures
+
+
+### Hashtable
+
+
+### PSCustomObject
