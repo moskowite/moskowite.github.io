@@ -3,22 +3,20 @@ layout: post
 title: "Using GitHub Pages with Jekyll"
 date: 2022-10-23 08:08:08 -0800
 last_modified_at: 2022-10-24 09:09:09 -0800
-category:
-    - Documentation
-    - Tutorial
+category: Documentation
 tags:
     - github
     - ruby
     - jekyll
     - powershell
 ---
-This post is documentation of setting up this [Jekyll site](https://jekyllrb.com/){:target="_blank"} with the [Chirpy theme](https://chirpy.cotes.page/){:target="_blank"} using [GitHub Pages](https://pages.github.com/){:target="_blank"} for hosting and continuos deployment using GitHub Actions. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
+This post is documentation of setting up this [Jekyll site](https://jekyllrb.com/){:target="_blank"} with the [Chirpy theme](https://chirpy.cotes.page/){:target="_blank"} using [GitHub Pages](https://docs.github.com/en/pages){:target="_blank"} for hosting and continuos deployment using [GitHub Actions](https://docs.github.com/en/actions){:target="_blank"}. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
 
 ## Getting Started
 
 - [X] [Sign up for a new **GitHub.com** account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account){:target="_blank"} or use your existing account.
 - [X] Documentation uses the following versions of software
-  - ![git](https://img.shields.io/badge/git-2.38.1-orange) ![Ruby 3.1.2](https://img.shields.io/badge/Ruby-3.1.2-red) ![Ruby Gems](https://img.shields.io/badge/Ruby%20Gems-4.3.0-red) ![Bundler](https://img.shields.io/badge/Bundler-2.3.24-blue) ![Jekyll](https://img.shields.io/badge/Jekyll-4.3.0-lightblue) ![Chirpy](https://img.shields.io/badge/Chirpy-4.3.0-green) ![PowerShell 7.2](https://img.shields.io/badge/PowerShell-7.2.6-blue)
+  - [X] ![git](https://img.shields.io/badge/git-2.38.1-orange) ![Ruby 3.1.2](https://img.shields.io/badge/Ruby-3.1.2-red) ![Ruby Gems](https://img.shields.io/badge/Ruby%20Gems-4.3.0-red) ![Bundler](https://img.shields.io/badge/Bundler-2.3.24-blue) ![Jekyll](https://img.shields.io/badge/Jekyll-4.3.0-lightblue) ![Chirpy](https://img.shields.io/badge/Chirpy-4.3.0-green) ![PowerShell 7.2](https://img.shields.io/badge/PowerShell-7.2.6-blue)
 
 > These are not the minimum required versions, only the versions I utilized when creating this documentation post.
 {: .prompt-tip }
@@ -32,7 +30,7 @@ Sign into [GitHub.com](https://github.com){:target="_blank"} with your account.
 
 Navigate to [github.com/cotes2020/chirpy-starter/generate](https://github.com/cotes2020/chirpy-starter/generate){:target="_blank"} to create the repository using the **chirpy-starter** Jekyll theme template. 
 
-[The repository name is required to be](https://pages.github.com/#create-repo-step){:target="_blank"}{:target="_blank"} *username*.github.io - where the *username* represents your GitHub.com username. For example, my *username* is **moskowite** therefore my repository must be named **moskowite**.github.io.
+[The repository name is required to be](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites){:target="_blank"}{:target="_blank"} *username*.github.io - where the *username* represents your GitHub.com username. For example, my *username* is **moskowite** therefore my repository must be named **moskowite**.github.io.
 
 > For the remainder of this post, I will be using **moskowite** as the *username*.
 {: .prompt-info }
@@ -160,7 +158,7 @@ git commit -am 'Updates to _config.yml.'
 
 Finally, use the [**git push**](https://git-scm.com/docs/git-push){:target="_blank"} command to push the committed changes to the defined remote located *origin* on the *main* branch.
 
-```shell
+```console
 git push origin main
 ```
 
