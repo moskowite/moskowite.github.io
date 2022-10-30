@@ -5,6 +5,14 @@ category: Tutorial
 tags:
     - powershell
 ---
+## Getting Started
+
+- [X] The examples are available with the GitHub.com repository.
+- [X] Documentation uses the following versions of software
+  - [X] ![PowerShell 7.2](https://img.shields.io/badge/PowerShell-7.2.6-blue) ![git](https://img.shields.io/badge/git-2.38.1-orange) 
+
+> These are not the minimum required versions, only the versions I utilized when creating this documentation post.
+{: .prompt-tip }
 
 ## Introduction
 
@@ -19,11 +27,14 @@ If you’ve not already tried it, PowerShell has made significant development si
 | 5.0 | 10 / Server 2016 Tech Preview           | 2015-12-16
 | 5.1 | 10 Anniversary edition / Server 2016    | 2017-01-27
 
-## Writing
+
+## Streams
 
 Starting off with the basics, writing to everyone and anywhere. PowerShell comes by default with several stream types you can write to. 
 
 > Include a list or table or something of the stream types.
+
+
 
 ### Output
 
@@ -57,7 +68,7 @@ Hello World
 ## Data structures
 
 
-### Hashtable
+### Hash Table
 
 
 ### PSCustomObject
