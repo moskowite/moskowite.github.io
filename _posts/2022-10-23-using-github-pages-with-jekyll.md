@@ -10,8 +10,6 @@ tags:
     - jekyll
     - powershell
 ---
-This post is documentation of setting up this [Jekyll site](https://jekyllrb.com/){:target="_blank"} with the [Chirpy theme](https://chirpy.cotes.page/){:target="_blank"} using [GitHub Pages](https://docs.github.com/en/pages){:target="_blank"} for hosting and continuos deployment using [GitHub Actions](https://docs.github.com/en/actions){:target="_blank"}. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
-
 ## Getting Started
 
 - [X] [Sign up for a new **GitHub.com** account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account){:target="_blank"} or use your existing account.
@@ -20,6 +18,10 @@ This post is documentation of setting up this [Jekyll site](https://jekyllrb.com
 
 > These are not the minimum required versions, only the versions I utilized when creating this documentation post.
 {: .prompt-tip }
+
+## Introduction
+
+This post is documentation of setting up this [Jekyll site](https://jekyllrb.com/){:target="_blank"} with the [Chirpy theme](https://chirpy.cotes.page/){:target="_blank"} using [GitHub Pages](https://docs.github.com/en/pages){:target="_blank"} for hosting and continuos deployment using [GitHub Actions](https://docs.github.com/en/actions){:target="_blank"}. The post may also serve as a tutorial for anyone who may want to follow the same steps to create their own GitHub Page with Jekyll. 
 
 ## Using chirpy-starter template repository
 
